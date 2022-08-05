@@ -93,14 +93,14 @@ li a {
 
 .signup_button{
     border-radius: 10px;
-    background-color: lightseagreen;
+    background-color: #3882F6;
     color: #F9F8FA;
     font-weight: 700;
     flex: initial;
-    width: 100px;
+    width: 130px;
     text-align: center;
-    padding: 5px 10px;
-    border: solid 1px lightseagreen;
+    padding: 10px 30px;
+    border: solid 1px #3882F6;
     font-size: 17px;
 }
 
