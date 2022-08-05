@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+}
+.header {
+    background-color: #1F2937;
+    color: #F9F8FA;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-evenly;
+    gap:30%;
+    font-family: roboto;
+    align-items: center;
+    /* padding-left: 20px; */
+}
+
+.logo {
+    padding-left: 20px;
+    font-weight:bolder;
+}
+
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.top_list {
+    padding: 0px 20px;
+    display: flex;
+    gap: 20px;
+    font-weight: 100;
+}
+
+li  {
+    display: inline;
+    font-weight: 100;
+}
+
+li a {
+    text-decoration: none;
+    color:#F9F8FA;
+    font-size: 22px;
+}
