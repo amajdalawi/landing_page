@@ -9,8 +9,8 @@ body {
     color: #F9F8FA;
     font-size: 24px;
     display: flex;
-    justify-content: space-evenly;
-    gap:30%;
+    justify-content: center;
+    gap:24%;
     font-family: roboto;
     align-items: center;
     /* padding-left: 20px; */
@@ -42,3 +42,66 @@ li a {
     color:#F9F8FA;
     font-size: 22px;
 }
+
+/* Hero Container  */
+
+
+.hero_container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    color:#F9F8FA;
+    padding: 50px 0px;
+}
+
+.hero_pic {
+    width: 500px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: purple;
+    border: solid 5px color;
+    border-radius: 5px;
+    margin: 10px 0px;
+    flex-grow: 0;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+.hero_text {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 15px;
+
+}
+
+.big_text {
+    color:#F9F8FA;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.info_text {
+    font-weight: lighter;
+}
+
+.signup_button{
+    border-radius: 10px;
+    background-color: lightseagreen;
+    color: #F9F8FA;
+    font-weight: 700;
+    flex: initial;
+    width: 100px;
+    text-align: center;
+    padding: 5px 10px;
+    border: solid 1px lightseagreen;
+}
+
+/* Info Part */
+
