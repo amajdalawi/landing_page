@@ -99,7 +99,7 @@ li a {
     flex: initial;
     width: 130px;
     text-align: center;
-    padding: 10px 30px;
+    padding: 10px 10px;
     border: solid 1px #3882F6;
     font-size: 17px;
 }
@@ -173,3 +173,32 @@ div.panel {
     font-style: normal;
 }
 
+/* Join! */
+
+.join_container {
+    display: flex;
+    padding: 90px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue_inner_con {
+    background-color: #3882F6;
+    color:#F9F8FA;
+    border-radius: 10px;
+    padding: 50px 20px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.blue_inner_con .signup_button {
+    border: solid 2px white;
+    padding: 10px 7px;  
+}
+
+.big_inner_text {
+    font-size: 26px;
+    font-weight: 600;
+}
